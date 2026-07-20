@@ -1,0 +1,23 @@
+.security-page {
+  padding: 60px 0;
+}
+
+.content-section {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 40px;
+}
+
+.content-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+}
+
+.content-section p {
+  margin-bottom: 15px;
+  color: var(--text-light);
+  line-height: 1.6;
+}

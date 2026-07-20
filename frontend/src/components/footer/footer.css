@@ -1,0 +1,37 @@
+.footer {
+  background: var(--gradient-primary);
+  color: var(--white);
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-contact {
+  text-align: right;
+}
+
+.footer-contact p {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .footer-contact {
+    text-align: center;
+  }
+}

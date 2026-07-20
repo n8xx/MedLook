@@ -1,0 +1,72 @@
+.upload-main-page {
+  padding: 60px 0;
+}
+
+.upload-section {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.upload-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.upload-options {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.upload-option {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  flex: 1;
+  max-width: 300px;
+  transition: all 0.3s ease;
+  border: 2px solid var(--gray-light);
+  box-shadow: var(--shadow-sm);
+}
+
+.upload-option:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-pink);
+  box-shadow: var(--shadow-lg);
+}
+
+.option-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.upload-option h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: var(--text-dark);
+}
+
+.upload-option p {
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .upload-options {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-option {
+    width: 100%;
+    max-width: 100%;
+  }
+}

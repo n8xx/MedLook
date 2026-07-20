@@ -1,0 +1,37 @@
+.use-camera-page {
+  padding: 60px 0;
+}
+
+.upload-section {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.upload-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.camera-preview {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  background: var(--gray-light);
+  border-radius: 8px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--gray-border);
+}
+
+.camera-placeholder {
+  color: var(--text-light);
+  font-size: 18px;
+}
